@@ -1,0 +1,9 @@
+#! /bin/sh
+
+mount -t proc /proc
+mount -o remount,rw /
+mount -a
+
+##Clavier en azerty
+loadkmap < /etc/azerty.kmap
+

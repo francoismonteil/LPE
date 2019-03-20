@@ -1,0 +1,4 @@
+lib/x86_64-linux-gnu/libm.so.6 (0x00007f4d7d6a8000)
+lib/x86_64-linux-gnu/libresolv.so.2 (0x00007f4d7d48d000)
+lib/x86_64-linux-gnu/libc.so.6 (0x00007f4d7d09c000)
+lib64/ld-linux-x86-64.so.2 (0x00007f4d7dd38000)
