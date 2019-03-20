@@ -1,0 +1,7 @@
+label: dos
+label-id: 0x8406ee2f
+device: /dev/sdb
+unit: sectors
+
+/dev/sdb1 : start=        2048, size=      262144, type=c, bootable
+/dev/sdb2 : start=      264192, size=    30852096, type=83

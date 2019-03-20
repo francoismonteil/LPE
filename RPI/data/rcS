@@ -1,0 +1,9 @@
+#! /bin/sh
+
+mount none /proc -t proc
+mount none /sys  -t sysfs
+mount / -o remount,rw
+
+/sbin/mdev -s
+echo /sbin/mdev >/proc/sys/kernel/hotplug
+loadkmap < /etc/azerty.kmap
